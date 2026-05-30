@@ -38,7 +38,7 @@ Projenin arayüzü, hiçbir CSS kütüphanesi (Tailwind, Bootstrap vb.) kullanı
 
 ## 🚀 1. YOL: DOCKER İLE ÇALIŞTIRMA (En Kolay ve Sıfır Kurulum)
 
-Öğretmenimizin veya projeyi test edecek kişilerin bilgisayarlarında hiçbir yazılım (Node.js, SQLite vb.) kurulu olmasa dahi, yalnızca **Docker** aracılığıyla uygulamayı **tek tıklamayla** veya tek bir komutla ayağa kaldırabilirsiniz. Konteyner yapısı hem React kodlarını derler hem de Express API sunucusunu SQLite veritabanı ile birlikte tek bir port (3001) üzerinden dışarıya servis eder.
+Projeyi test edecek kişilerin bilgisayarlarında hiçbir yazılım (Node.js, SQLite vb.) kurulu olmasa dahi, yalnızca **Docker** aracılığıyla uygulamayı **tek tıklamayla** veya tek bir komutla ayağa kaldırabilirsiniz. Konteyner yapısı hem React kodlarını derler hem de Express API sunucusunu SQLite veritabanı ile birlikte tek bir port (3001) üzerinden dışarıya servis eder.
 
 ### A) Windows Kullanıcıları İçin (Tek Tıklama):
 1. Bilgisayarınızda **Docker Desktop** uygulamasının açık olduğundan emin olun.
