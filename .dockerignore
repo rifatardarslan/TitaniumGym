@@ -1,0 +1,19 @@
+# Local dependencies and build artifacts to ignore in Docker build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Configuration and Database files to keep out of Docker images
+.env
+.env.local
+gym.db
+gym.db-journal
+
+# Documentation and Git files
+.git/
+.vscode/
+.idea/
+*.log
+README.md
+TEKNOLOJILER.md
+*.pdf

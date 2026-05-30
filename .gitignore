@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+
+# Production build directories
+frontend/dist/
+
+# Env config files (Crucial: Protect credentials from leaking to GitHub)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SQLite Database (Automatically generated & seeded on startup)
+gym.db
+gym.db-journal
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor and System files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
